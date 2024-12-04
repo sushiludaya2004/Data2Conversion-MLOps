@@ -1,6 +1,7 @@
 import streamlit as st
 from src.pipeline.predict_pipeline import PredictPipeline, CustomData
 
+
 predict_pipeline = PredictPipeline()
 
 st.title("Data2Conversion App")
