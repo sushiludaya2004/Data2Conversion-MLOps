@@ -39,3 +39,6 @@ if st.button("Predict"):
     rounded_prediction = round(prediction[0], 4)
     
     st.success(f"Based on the analysis, we predict {rounded_prediction} customers will convert from this ad campaign.")
+
+if __name__=="__main__":
+    app.run(host="0.0.0.0", port=8080)
